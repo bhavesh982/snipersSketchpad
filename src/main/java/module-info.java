@@ -1,5 +1,4 @@
 module com.example.sniperssketchpad {
-    requires javafx.controls;
     requires javafx.fxml;
     requires javafx.web;
 
@@ -10,6 +9,8 @@ module com.example.sniperssketchpad {
     requires org.kordamp.bootstrapfx.core;
     requires eu.hansolo.tilesfx;
     requires com.almasb.fxgl.all;
+    requires com.jfoenix;
+    requires org.apache.pdfbox;
 
     opens com.example.sniperssketchpad to javafx.fxml;
     exports com.example.sniperssketchpad;
